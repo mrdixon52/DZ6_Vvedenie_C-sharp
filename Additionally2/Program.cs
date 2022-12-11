@@ -1,0 +1,12 @@
+﻿Console.Clear();
+Console.WriteLine("Enter x1 and y1");
+double x1 = Convert.ToDouble(Console.ReadLine());
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter x2 and y2");
+double x2 = Convert.ToDouble(Console.ReadLine());
+double y2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter x3 and y3");
+double x3 = Convert.ToDouble(Console.ReadLine());
+double y3 = Convert.ToDouble(Console.ReadLine());
+double s = Math.Abs((x2 - x1) * (y3 - y1) - (x3 - x1) * (y2 - y1)) / 2;
+Console.WriteLine($"S = {s}");
